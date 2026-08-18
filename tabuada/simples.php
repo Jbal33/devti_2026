@@ -19,6 +19,6 @@
                 </p>";
             }
         ?>
-        
+         <a href="index.php">Voltar à página inicial.</a>
 </body>
 </html>
