@@ -21,5 +21,7 @@
         ?>    
         <br>
         <a href="phpinfo.php">Obtenha informações referentes ao PHP usando o phpinfo()</a>
+        <br>
+        <a href="olanome.php">Olá, Nome!</a>
     </body>
 </html>

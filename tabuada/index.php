@@ -11,6 +11,20 @@
         <li>
             <a href="simples.php">Tabuada Simples</a>
         </li>
+        <li>
+            <a href="tabuadacompleta.php">Tabuada Completa</a>
+        </li>
+        <li>
+            <a href="tabuadanumero.php">Tabuada Número</a>
+            <br>
+            <form action="tabuadanumero.php" method="get">
+                <label for="fnumero">
+                    Número: 
+                </label>
+                <input type="number" name="fnumero" value="0">
+                <button type="submiti">Enviar</button>
+            </form>
+        </li>
     </ul>
 </body>
 </html>
