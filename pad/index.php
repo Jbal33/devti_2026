@@ -21,6 +21,11 @@
             border-radius: 6px;
             padding: 5px;
         }
+        #menu {
+            margin-top: 20px;
+            text-align: center;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>  <!-- Slide : 91 ... -->
@@ -45,8 +50,11 @@
         <br>
         <br>
         <button type="submit">Calcular</button>
-       
+        
     </form>
+    </div>
+    <div id="menu">
+        <a href="../imc/index.php">Calcular IMC</a>
     </div>
 </body>
 </html>
