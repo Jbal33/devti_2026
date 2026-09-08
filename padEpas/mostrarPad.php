@@ -23,7 +23,7 @@
 </head>
 <body>
     <?php
-        $nome = $_GET['nome'] ?? '';
+        $nome = $_GET['nome'] ?? ''; //faz não aparecer erro caso o usuário não digite nada no campo nome
         $idade = $_GET['idade'] ?? '';
         $pad = $_GET['pad'];
         $pas = $_GET['pas'];

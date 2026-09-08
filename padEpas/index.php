@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resultado do PAD e PAS</title>
+    <title>Calcular PAD e PAS</title>
     <style>
         .titulo{
             text-align: center;
@@ -35,7 +35,7 @@
 <body>  <!-- Slide : 91 ... -->
     <h1 class="titulo">Cálculo de PAD e PAS</h1>
     <div id="dados">
-    <form action="mostrarPad.php" method="get">
+    <form action="mostrarPad.php" method="get"> <!-- Faz o botão "Calcular" levar ao "mostrarPad" -->
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome">
         <br>
