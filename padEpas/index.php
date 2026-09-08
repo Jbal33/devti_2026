@@ -26,6 +26,10 @@
             text-align: center;
             text-decoration: none;
         }
+        a {
+            text-decoration: none;
+            color: black;
+        }
     </style>
 </head>
 <body>  <!-- Slide : 91 ... -->
@@ -54,7 +58,7 @@
     </form>
     </div>
     <div id="menu">
-        <a href="../imc/index.php">Calcular IMC</a>
+        <a href="../imc/index.php">Clique aqui para calcular IMC</a>
     </div>
 </body>
 </html>
