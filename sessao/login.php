@@ -17,6 +17,7 @@ if (isset($_GET['sair'])) {
 }
 
 // Escapa o nome antes de exibi-lo no HTML.
+//"htmlspecialchars"  Impede que usuários injetem códigos maliciosos (como tags <script>) em formulários e converte caracteres especiais em entidades HTML para que o navegador os exiba como texto simples e não como código executável.
 $nome = htmlspecialchars($_SESSION['usuario'], ENT_QUOTES, 'UTF-8');
 ?>
 <!DOCTYPE html>
