@@ -12,6 +12,7 @@
     try {
         if (isset($_POST["fnomearq"]) && isset($_POST["ftextoarq"])) {
                 //$caminho = dirname(__DIR__)."/editor/arq/";
+                //windows abaixo, o para linux é o acima/
                 $caminho = dirname(__DIR__)."\\editor\\arq\\";
                 $nomearquivo = $caminho.basename($_POST["fnomearq"]); 
                 if (!file_exists($nomearquivo)) {
