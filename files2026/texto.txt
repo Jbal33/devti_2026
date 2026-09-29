@@ -1,0 +1,5 @@
+Arquivo de texto criado para exemplicar:
+- Manipulação de arquivos com PHP
+- Uso da função readfile
+
+Autoria - DEVs-TI 2026
